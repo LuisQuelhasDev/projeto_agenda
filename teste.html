@@ -1,0 +1,42 @@
+<section id="new_contact">
+    <div class="container">
+        <h3>Insira as informações do contato</h3>
+        <div class="flex-container"> <!-- Novo contêiner flexível -->
+            <form>
+                <input type="text" required placeholder="Nome">
+                <input type="tel" required placeholder="Número de contato">
+                <button type="submit">Adicionar</button>
+            </form>
+            <div id="list_contact">
+                <h3>Lista de contatos</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Número de contato</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Os contatos serão adicionados aqui -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.flex-container {
+    display: flex; /* Torna o contêiner um flexbox */
+    justify-content: space-between; /* Distribui espaço entre os itens */
+    align-items: flex-start; /* Alinha os itens no topo */
+    margin-top: 20px; /* Espaço entre o título e o contêiner */
+}
+
+form {
+    margin-right: 20px; /* Espaço entre o formulário e a lista */
+}
+
+#list_contact {
+    width: 50%; /* Ajusta a largura da lista */
+}

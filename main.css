@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    
+    padding: 20px 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 40px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 1, 0.555);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body{
+    /*background-color: rgb(1, 144, 1);*/
+    /*background-color: rgba(173, 173, 173, 0.358);*/
+    background: linear-gradient(to bottom, #2E4156, #AAB7B7, #C0C8CA);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+section{
+    margin-top: 20px;
+}
+
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+form input{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: 10px 0;
+    font-family: Arial;
+    outline: none;
+    background-color:#C0C8CA;
+    font-weight: bold;
+    border: 1px solid #AAB1B7;
+    border-radius: 6px;
+}
+
+form button{
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 200px;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #AAB1B7;
+    border: none;
+    box-shadow: 2px 2px 4px black;
+}
+
+#list_contact{
+    margin-top: -26px;
+    width: 55%;
+}
+
+table{
+    /*background-color: rgba(25, 153, 25, 0.516);*/
+    border-radius: 10px;
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid black;
+    margin-top: 8px;
+    padding: 8px 0;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+table td{
+    text-align: center;
+    padding: 8px 0;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(94, 94, 94, 0.533);
+    font-family: Arial;
+}
